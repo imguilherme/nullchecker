@@ -1,4 +1,4 @@
-# Nullcheck
+# Nullchecker 0.1.0
 
 This library was created in order to avoid a lot of null check validations in js language.
 
@@ -25,7 +25,7 @@ This library was created in order to avoid a lot of null check validations in js
            value: "08002424913"
         }
     }
-    
+
     const _ = require("nullchecker"); 
     
     let name = _.get("document.value", person, "");
