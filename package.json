@@ -1,6 +1,6 @@
 {
   "name": "nullc",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "NullChecker.js",
   "license": "MIT",
   "devDependencies": {
