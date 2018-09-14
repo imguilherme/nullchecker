@@ -1,5 +1,5 @@
 {
-  "name": "nullchecker",
+  "name": "nullc",
   "version": "0.1.2",
   "main": "NullChecker.js",
   "license": "MIT",

@@ -14,7 +14,7 @@ This library was created in order to avoid tedious null-check validations in js 
 
 **Npm**
 
-    $ npm install nullchecker
+    $ npm install nullc
 
 # Sample usage passing nested properties as String
 
@@ -26,7 +26,7 @@ This library was created in order to avoid tedious null-check validations in js 
         }
     }
 
-    const _ = require("nullchecker"); 
+    const _ = require("nullc"); 
     
     let name = _.get("document.value", person, "");
     console.log(name);
@@ -47,7 +47,7 @@ This library was created in order to avoid tedious null-check validations in js 
         }
     }
 
-    const _ = require("nullchecker"); 
+    const _ = require("nullc"); 
     
     let name = _.get(["document", "value"], person, "");
     console.log(name);
