@@ -16,13 +16,13 @@ This library was created in order to avoid tedious null-check validations in js 
 
     $ npm install nullchecker
 
-# Sample usage
+# Sample usage passing nested properties as String
 
     let  person  = {
         name "Guilherme Costa",
         document: {
            type: "CPF",
-           value: "08002424913"
+           value: "00000000000"
         }
     }
 
@@ -37,8 +37,21 @@ This library was created in order to avoid tedious null-check validations in js 
     // default value
     
 
+# Sample usage passing nested properties as Array
 
+    let  person  = {
+        name "Guilherme Costa",
+        document: {
+           type: "CPF",
+           value: "00000000000"
+        }
+    }
 
+    const _ = require("nullchecker"); 
+    
+    let name = _.get(["document", "value"], person, "");
+    console.log(name);
+    // Guilherme Costa
 
 
 
