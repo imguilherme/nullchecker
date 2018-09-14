@@ -1,4 +1,4 @@
-# Nullchecker 0.1.3
+# Nullchecker 0.1.4
 
 This library was created in order to avoid tedious null-check validations in js language.
 
@@ -10,7 +10,7 @@ This library was created in order to avoid tedious null-check validations in js 
 
 **Yarn**
 
-    $ yarn install nullchecker
+    $ yarn install nullc
 
 **Npm**
 
