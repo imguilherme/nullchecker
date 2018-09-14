@@ -1,4 +1,4 @@
-# Nullchecker 0.1.0
+# Nullchecker 0.1.2
 
 This library was created in order to avoid tedious null-check validations in js language.
 
